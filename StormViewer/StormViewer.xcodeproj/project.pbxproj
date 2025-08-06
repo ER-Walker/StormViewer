@@ -35,16 +35,6 @@
 			path = StormViewer;
 			sourceTree = "<group>";
 		};
-		768C8EA52E3FC17D00F802DD /* StormViewerTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = StormViewerTests;
-			sourceTree = "<group>";
-		};
-		768C8EAF2E3FC17D00F802DD /* StormViewerUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = StormViewerUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				768C8E972E3FC17B00F802DD /* StormViewer */,
-				768C8EA52E3FC17D00F802DD /* StormViewerTests */,
-				768C8EAF2E3FC17D00F802DD /* StormViewerUITests */,
 				768C8E962E3FC17B00F802DD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				768C8EA42E3FC17D00F802DD /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				768C8EA52E3FC17D00F802DD /* StormViewerTests */,
-			);
 			name = StormViewerTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				768C8EAE2E3FC17D00F802DD /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				768C8EAF2E3FC17D00F802DD /* StormViewerUITests */,
 			);
 			name = StormViewerUITests;
 			packageProductDependencies = (
